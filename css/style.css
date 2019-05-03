@@ -1,0 +1,39 @@
+body {
+  /* font-family: 'Slabo 27px', serif; */
+}
+
+li {
+
+}
+
+
+/* menu */
+
+.navbar-collapse li {
+  background-image: url("../image/6.gif");
+}
+
+.content img {
+  width: 100%;
+}
+
+.content-1 {
+  background-color: deepskyblue;
+}
+.content-1 p {
+  color: white;
+}
+.content-2 {
+  background-color: lightskyblue;
+  font-size: 70px;
+  color: white;
+}
+
+@media (min-width: 768px){
+  .navbar-nav{
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+      float:none;
+  }
+}
